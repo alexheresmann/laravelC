@@ -94,7 +94,7 @@
                         </div>
                     @endif
 
-                    <form class="form-horizontal" method="POST" action="{{ route('contact') }}">
+                    <form class="form-horizontal" method="POST" action="{{ route('password.email') }}">
                         {{ csrf_field() }}
 
                         <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
